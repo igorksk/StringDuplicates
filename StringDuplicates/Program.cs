@@ -1,4 +1,5 @@
 ﻿using StringDuplicates;
+using System;
 
 Console.WriteLine("Hello, World!");
 
@@ -11,3 +12,5 @@ Action<string> testFunc = (string s) =>
 
 testFunc("qwerty");
 testFunc("qwertyqu");
+
+Console.ReadLine();

@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringDuplicates
 {
@@ -11,7 +7,7 @@ namespace StringDuplicates
     {
         public static bool CheckForDuplicates(string data)
         {
-            Hashtable hashtable = new Hashtable();
+            Hashtable hashtable = [];
 
             int index = 0;
 
